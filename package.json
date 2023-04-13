@@ -1,0 +1,34 @@
+{
+  "name": "image-encrypt-decrypt",
+  "version": "1.0.0",
+  "description": "nodejs cli tool to encrypt and decrypt image",
+  "main": "index.js",
+  "bin": {
+		"edcrypt": "index.js"
+	},
+  "keywords": [
+		"edcrypt",
+		"encrypt",
+		"decrypt",
+		"image",
+		"cryptography",
+		"nodejs",
+		"cli"
+	],
+  "files": [
+		"index.js",
+		"utils"
+	],
+  "author": "Vasu Devrani",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VasuDevrani/image-encrypt-decrypt"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cli-alerts": "^1.2.2",
+    "cli-meow-help": "^3.1.0",
+    "jimp": "^0.22.7",
+    "meow": "^9.0.0"
+  }
+}
